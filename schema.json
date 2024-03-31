@@ -1,0 +1,17 @@
+{
+  "type": "array",
+  "items": {
+      "type": "object",
+      "required": [
+          "id"
+      ],
+      "properties": {
+          "id": {
+              "$ref": "#/definitions/numerical"
+          },
+          "header": {
+              "$ref": "#/definitions/header"
+          }
+      }
+  }
+}
